@@ -1,0 +1,374 @@
+/* Base styles */
+
+a strong {
+  color: inherit;
+}
+
+hr {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #d8dee9;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+pre {
+  overflow: auto;
+  white-space: pre-wrap;
+}
+
+footer {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 4em;
+  text-align: center;
+}
+
+/* Initial state */
+
+#visited {
+  background-color: white;
+  bottom: 0;
+  color: white;
+  display: block;
+  left: 0;
+  padding: 1em;
+  position: fixed;
+  right: 0;
+  text-align: center;
+}
+
+#visited:visited {
+  background-color: #e81c4f;
+}
+
+header,
+main {
+  margin: 0 auto;
+  max-width: 50em;
+}
+body {
+  font-family: "Roboto","Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  padding: 4em 1em;
+  background: white;
+  color: #566b78;
+  -moz-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+
+}
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+h1,h2,strong {
+  color: #333;
+}
+a strong {
+  color: inherit;
+}
+
+code,pre {
+  background: #eee;
+}
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+pre {
+  padding: 1em;
+}
+a {
+  color: #e81c4f;
+}
+
+code,
+pre {
+  background: #f5f7f9;
+  border-bottom: 1px solid #d8dee9;
+  color: #a7adba;
+  -moz-font-smoothing: grayscale;
+  -webkit-font-smoothing: initial;
+}
+pre {
+  border-left: 2px solid #69c;
+}
+.selector {
+  color: #ec5f67;
+}
+.keyword {
+  color: #ab7967;
+}
+.unit {
+  color: #fac863;
+}
+.attribute {
+  color: #5fb3b3;
+}
+.number {
+  color: #f99157;
+}
+.string {
+  color: #c594c5;
+}
+
+h1,h2,strong {
+  font-weight: 500;
+}
+
+
+
+/*header {
+  background-color: #263d36;
+  background-image: url("header.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  max-width: none;
+  padding: 10vw 2em;
+  text-align: center;
+}*/
+
+/* #logo {
+  display: inline-block;
+  height: 120px;
+  vertical-align: top;
+  width: 120px;
+}
+
+html.step9 header h1 {
+  color: white;
+  font-size: 2.5em;
+  font-weight: 300;
+}
+
+html.step9 header a {
+  border: 1px solid #e81c4f;
+  border-radius: 290486px;
+  color: white;
+  font-size: 0.6em;
+  letter-spacing: 0.2em;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition: none 200ms ease-out;
+  transition: none 200ms ease-out;
+  -webkit-transition-property: color, background;
+  transition-property: color, background;
+}
+
+html.step9 header a:hover {
+  background: #e81c4f;
+  color: white;
+}*/
+
+/* 10 Share */
+
+
+/* Classes */
+
+html a.button {
+  border: 1px solid #d8dee9;
+  border-radius: 290486px;
+  color: #b0bfc7;
+  padding: 1em 1.5em;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: none 200ms ease-out;
+  transition: none 200ms ease-out;
+  -webkit-transition-property: color, background;
+  transition-property: color, background;
+}
+
+html a.button strong {
+  color: #e81c4f;
+}
+
+.button:hover {
+  background: #e81c4f;
+  border-color: transparent;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.button em {
+  display: block;
+  font-size: 0.6em;
+  font-style: normal;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.button strong {
+  color: #e81c4f;
+  -webkit-transition: color 200ms ease-out;
+  transition: color 200ms ease-out;
+}
+
+.button:hover strong {
+  color: white !important;
+}
+
+.button.github strong {
+  color: #333;
+}
+
+.button.github:hover {
+  background: #333;
+}
+
+footer .button {
+  font-size: 0.8em;
+  padding: 1em 2em;
+}
+
+.buttons .button {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.cover {
+  text-align: center;
+}
+
+.cover .resource {
+  display: block;
+}
+
+.emoji {
+  font-size: 1.125em;
+  vertical-align: middle;
+}
+
+/* Resources */
+
+.resources {
+  margin: 1em 0;
+  padding: 0;
+}
+
+.resource {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #d8dee9;
+  border-radius: 5px;
+  color: #566b78 !important;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1em;
+  padding: 1em 2em;
+  text-decoration: none;
+}
+
+.resource:hover {
+  border-color: #e81c4f;
+}
+
+.resource strong {
+  color: #e81c4f !important;
+}
+
+.resource .resource-name {
+  color: #333 !important;
+  display: block;
+  font-size: 1.2em;
+}
+
+.resource-icon {
+  box-sizing: border-box;
+  display: block;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  height: 120px;
+  margin: 0;
+  margin-right: 1em;
+  padding: 0;
+  text-align: center;
+  width: 120px;
+}
+
+.resource-marksheet .resource-icon {
+  padding: 5px;
+}
+
+.resource-bulma .resource-icon {
+  padding: 10px;
+}
+
+.resource-css-reference .resource-icon {
+  padding: 20px;
+}
+
+/* Responsiveness */
+
+@media (min-width: 600px) {
+  .buttons {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 1em 0;
+  }
+
+  .buttons .button {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    margin-bottom: 0;
+    margin-right: 1em
+  }
+
+  .buttons .button:last-child {
+    margin-right: 0;
+  }
+
+  .resources {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .resource {
+    display: block;
+    -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    -ms-flex-negative: 1;
+        flex-shrink: 1;
+    text-align: center;
+  }
+
+  .resource + .resource {
+    margin-left: 1em;
+  }
+
+  .resource-icon {
+    margin: 0 auto 1em;
+  }
+}  
